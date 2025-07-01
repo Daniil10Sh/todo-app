@@ -11,7 +11,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <TodoList />
+        <TodoList todos={this.state.todos} />
       </>
     );
   }
